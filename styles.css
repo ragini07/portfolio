@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap');
+
+:root {
+    /* --primary-color: #0D9488; */
+    --primary-color: #BE123C;
+    --off-white: #E5E7EB;
+    --dark-green: #0F766E;
+    --light-red: #F43F5E;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 2px;
+
+
+}
+
+/****container*******/
+.container {
+    padding: 0rem 1rem;
+
+}
+
+.container-center {
+    max-width: 35rem;
+    margin: auto;
+}
+
+/*****link*************/
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+
+}
+
+.link-active {
+    font-weight: bold;
+}
+
+.primary-link:hover {
+    background-color: var(--light-red);
+
+
+}
+
+.primary-link:after {
+    content: " >";
+    opacity: 0;
+}
+
+.primary-link:hover:after {
+    opacity: 1;
+}
+
+.primary-link {
+    background-color: var(--primary-color);
+    color: white;
+
+}
+
+.secondary-link {
+    background-color: white;
+    color: var(--primary-color);
+    /**  border-style: solid;
+    border-color: var(--primary-color);  **/
+    border: 0.1rem solid var(--primary-color);
+    padding: 0.4rem;
+}
+
+
+/*********list*******/
+.non-bullet {
+    list-style: none;
+}
+
+.list-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/*****navigation****/
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+}
+
+.navigation a {
+    color: white;
+}
+
+/**alternate--.navigation .link **/
+.nav-title {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.alignment {
+    text-align: right;
+}
+
+
+/*********header***********/
+.header {
+    padding: 1rem;
+
+}
+
+.header-img {
+    max-width: 25rem;
+    margin: auto;
+    display: block;
+    padding-top: 2rem;
+}
+
+.header-title {
+
+    color: var(--primary-color);
+    padding: 1rem 0.1rem 1rem 6rem;
+
+}
+
+/******section*******/
+/*******container-center the entire section to get everything in middle background as well**/
+section {
+    padding: 2rem;
+
+    border-radius: 0.5rem;
+}
+
+.ow {
+    background-color: var(--off-white);
+}
+
+/*
+section h1{
+    text-align: center;
+}*/
+
+
+/*****footer******/
+footer {
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.footer-text {
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
+
+hr {
+    margin: 2rem 0rem;
+
+}
+
+.copyright {
+    font-size: 0.7rem;
+}
+/*********************************/
+.title{
+    font-size: 3rem;
+}
+.subtitle{
+    color:gray;
+    opacity: 2;
+
+}
+.blog-img{
+    width:35rem;
+    margin:1rem
+}
+ol li{
+    list-style:none;
+    }
